@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@efwl 
-Yh793
-/
-Padavan-build
-Public
-Fork your own copy of Yh793/Padavan-build
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Padavan-build/.github/workflows/C.K2P-V2T.yml
-@Yh793
-Yh793 remove golang check
-Latest commit 01fac26 on Feb 14, 2021
- History
- 1 contributor
-214 lines (209 sloc)  11.7 KB
-
 #修改TNAME: K2P-5.0 中的K2P-5.0为你需要编译的型号，注意名称要与configs/templates/目录下的名字相同
 name: C.K2P-V2
 
@@ -255,4 +226,3 @@ API
 Training
 Blog
 About
-Padavan-build/C.K2P-V2T.yml at master · Yh793/Padavan-build
