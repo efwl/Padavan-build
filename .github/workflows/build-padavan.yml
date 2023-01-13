@@ -113,7 +113,7 @@ jobs:
         #########################################################################################
         #自定义添加其它功能请参考源码configs/templates/目录下的config文件。按照上面的格式添加即可
         #格式如下：
-        sed -i '/自定义项/d' .config
+        sed -i '/自定义项123/d' .config
         echo "CONFIG_FIRMWARE_INCLUDE_FRPC=Y" >> .config #内网穿透FRPC
         echo "CONFIG_FIRMWARE_INCLUDE_FRPS=Y" >> .config #内网穿透FRPS
         #########################################################################################
