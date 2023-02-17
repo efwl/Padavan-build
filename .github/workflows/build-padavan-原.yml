@@ -35,11 +35,6 @@ jobs:
         KERNEL: 3.4
       run: |
         git clone -b master --depth=1 https://github.com/240038901/Padavan-KVR.git /opt/rt-n56u
-        #if [ $KERNEL = "4.4" ] ; then
-        #git clone --depth=1 https://github.com/MeIsReallyBa/padavan-4.4.git /opt/rt-n56u
-        #else
-        #git clone --depth=1 https://github.com/240038901/rt-n56u.git /opt/rt-n56u
-        #fi
         cd /opt/rt-n56u/toolchain-mipsel
         sh dl_toolchain.sh
         mkdir -p /opt/images/
